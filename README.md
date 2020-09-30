@@ -37,7 +37,7 @@ vht_oper_centr_freq_seg0_idx=42
 
 Note: for 80 MHz channels, vht_oper_centr_freq_seg0_idx is channel + 6
 
-What channel number that can be used depends on country, ie. the regulatory domain, e helpful picture is here: http://www.revolutionwifi.net/revolutionwifi/2013/03/80211ac-channel-planning.html
+What channel number that can be used depends on country, ie. the regulatory domain, a helpful picture is here: http://www.revolutionwifi.net/revolutionwifi/2013/03/80211ac-channel-planning.html
 
 **iw list** displays Wi-Fi device capabilities
 
