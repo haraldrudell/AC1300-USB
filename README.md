@@ -1,3 +1,5 @@
+# Fastest USB Wi-Fi in 2020
+
 Recent USB adapters are based on Realtek RTL8814AU chip capable of AC1900: 4x4x3
 
 This means that a usb port can become a 90 Mb/s access point on Linux
@@ -14,6 +16,8 @@ As of September 2020, any USB device that claims AC1900 is going to be rtl8814
 
 Vendor ID: 0bda
 Device ID: 8813
+
+# Wi-Fi 5 802.11ac Wide (fast) Channels
 
 # AC1300 80 MHz in 5 GHz band
 <pre><blockquote>
