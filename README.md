@@ -64,7 +64,7 @@ ssid=ssid-36-20
 country_code=US
 hw_mode=a
 channel=36
-auth_algs=1
+ieee80211n=1
 ieee80211ac=1
 </blockquote></pre>
 
