@@ -28,8 +28,8 @@ ssid=ssid-36-80
 country_code=US
 hw_mode=a
 channel=36
-ht_capab=[HT40+]
 ieee80211n=1
+ht_capab=[HT40+]
 ieee80211ac=1
 vht_oper_chwidth=1
 vht_oper_centr_freq_seg0_idx=42
@@ -50,8 +50,8 @@ ssid=ssid-36-40
 country_code=US
 hw_mode=a
 channel=36
-ht_capab=[HT40+]
 ieee80211n=1
+ht_capab=[HT40+]
 ieee80211ac=1
 </blockquote></pre>
 
