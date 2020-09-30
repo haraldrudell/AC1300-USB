@@ -63,7 +63,7 @@ ieee80211ac=1
 </blockquote></pre>
 
 # Driver for Linux
-This driver is based on 5.8.5 and continuosly updated, offers dkms and 2020 Linux kernels:
+This driver is based on 5.8.5 and continuously updated, offers dkms and 2020 Linux kernels:
 
 https://github.com/aircrack-ng/rtl8812au
 
