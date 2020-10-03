@@ -100,4 +100,6 @@ The produced kernel module is named 88XXau
 
 The kernel tree and most distributions do not have any or any recent driver
 
+Note: as of 10/1/2020 07c704c, this driver is too buggy to be used as a client. However, it does work as an access point
+
 10/3/2020
