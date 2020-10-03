@@ -1,11 +1,11 @@
 # Fastest USB Wi-Fi in 2020
 
-Recent USB adapters are based on Realtek RTL8814AU chip capable of AC1900: 4x4x3
+Recent USB adapters are based on Realtek RTL8814AU chip capable of AC1900 3x3:3
 
-This means that a usb port can become a 90 Mb/s access point on Linux
+This means that a usb3 port can become a 500 Mb/s throughput access point on Linux
 
 Some adapters are:
-* Netgear A7000 $69.99
+* Netgear A7000 $69.99: performs best in tests
 * Trendnet TEW-809UB
 * Edimax EW-7833UAC
 * ASUS USB-AC68
@@ -16,6 +16,29 @@ As of September 2020, any USB device that claims AC1900 is going to be rtl8814
 
 Vendor ID: 0bda
 Device ID: 8813
+
+# 5 GHz Access Point 1.3 Gb/s (500 Mb/s throughput possible)
+<pre><blockquote>
+# directive order from: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
+# © 2020-present Harald Rudell <harald.rudell@gmail.com>
+interface=wlx08beac123456
+ssid=five80
+country_code=US
+ieee80211d=1
+ieee80211h=1
+hw_mode=a
+channel=36
+#auth_algs=1
+#ap_isolate=1
+ieee80211n=1
+ht_capab=[LDPC][HT40+][GF][SHORT-GI-20][SHORT-GI-40][RX-STBC123][MAX-AMSDU-7935][DSSS_CCK-40][40-INTOLERANT]
+#require_ht=1 # scan from clients may not work
+ieee80211ac=1
+vht_capab=[MAX-MPDU-11454][RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-123][SU-BEAMFORMEE][MAX-A-MPDU-LEN-EXP3][HTC-VHT][SOUNDING-DIMENSION-3]
+vht_oper_chwidth=1
+vht_oper_centr_freq_seg0_idx=42
+# insert authentication here such as 802.11x eap-tls or wpa2
+</blockquote></pre>
 
 # Wi-Fi 5 802.11ac Wide (fast) Channels
 
@@ -76,3 +99,5 @@ https://github.com/aircrack-ng/rtl8812au
 The produced kernel module is named 88XXau
 
 The kernel tree and most distributions do not have any or any recent driver
+
+10/3/2020
