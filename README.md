@@ -1,6 +1,6 @@
 # Fastest USB Wi-Fi in 2020
 
-Recent USB adapters are based on Realtek RTL8814AU chip capable of AC1900 3x3:3
+Recent USB adapters are based on Realtek RTL8814AU chip capable of Wi-Fi 5<br />&emsp;&#x2014; 802.11ac AC1900 3x3:3<br />&emsp;&#x2014; 1.3 Gb/s gross speed on 80 MHz channels in 5 GHz<br />&emsp;&#x2014; browsing throughput 500 Mb/s, about half the speed of a cable
 
 This means that a usb3 port can become a 500 Mb/s throughput access point on Linux
 
