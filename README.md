@@ -2,7 +2,7 @@
 
 Recent USB adapters are based on Realtek RTL8814AU chip capable of Wi-Fi 5<br />&emsp;&#x2014; 802.11ac AC1900 4x4:3<br />&emsp;&#x2014; 1.3 Gb/s gross speed on 80 MHz channels in 5 GHz<br />&emsp;&#x2014; browsing throughput 500 Mb/s, about half the speed of a cable
 
-This means that a usb3 port can become a 500 Mb/s throughput access point on Linux
+This means that a usb3 port can become a 500 Mb/s throughput access point on Linux with eap-tls or wpa3
 
 Some adapters are:
 * Netgear A7000 $69.99: performs best in tests
