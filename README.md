@@ -1,6 +1,6 @@
 # Fastest USB Wi-Fi in 2020
 
-Recent USB adapters are based on Realtek RTL8814AU chip capable of Wi-Fi 5<br />&emsp;&#x2014; 802.11ac AC1900 3x3:3<br />&emsp;&#x2014; 1.3 Gb/s gross speed on 80 MHz channels in 5 GHz<br />&emsp;&#x2014; browsing throughput 500 Mb/s, about half the speed of a cable
+Recent USB adapters are based on Realtek RTL8814AU chip capable of Wi-Fi 5<br />&emsp;&#x2014; 802.11ac AC1900 4x4:3<br />&emsp;&#x2014; 1.3 Gb/s gross speed on 80 MHz channels in 5 GHz<br />&emsp;&#x2014; browsing throughput 500 Mb/s, about half the speed of a cable
 
 This means that a usb3 port can become a 500 Mb/s throughput access point on Linux
 
@@ -91,6 +91,10 @@ ieee80211n=1
 ieee80211ac=1
 </blockquote></pre>
 
+# 469 Mb/s Driver for Linux: 5.8.5
+
+commissioning described here: https://github.com/aircrack-ng/rtl8812au/issues/740#issuecomment-706616355
+
 # Driver for Linux
 This driver is based on 5.8.5 and continuously updated, offers dkms and 2020 Linux kernels:
 
@@ -102,4 +106,4 @@ The kernel tree and most distributions do not have any or any recent driver
 
 Note: as of 10/1/2020 07c704c, this driver is too buggy to be used as a client. However, it does work as an access point
 
-10/3/2020
+10/10/2020
